@@ -1,2 +1,2 @@
 # meetdoctor-laravel
-implement meetdoctor static web tailwindcss with laravel
+meetdoctor tailwindcss + laravel
