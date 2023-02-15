@@ -20,7 +20,7 @@ class CreateDetailUserTable extends Migration
             $table->string('contact')->nullable();
             $table->longText('address')->nullable();
             $table->longText('photo')->nullable();
-            $table->enum('gender',[1,2])->nullable();
+            $table->enum('gender', [1,2])->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
